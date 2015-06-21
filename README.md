@@ -1,2 +1,1 @@
-# schibsted.github.io
-Web pages for Schibsted Products and Technology
+The Schibsted Products and Technology webpages. Please bring pull requests.
