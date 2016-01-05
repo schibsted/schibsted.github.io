@@ -1,0 +1,10 @@
+name: Schibsted Engineering Blog
+description: Notes from Schibsted's engineering team about technology.
+timezone: Europe/Oslo
+permalink: pretty
+gems:
+- jekyll-feed
+- jekyll-mentions
+- jekyll-redirect-from
+- jekyll-sitemap
+- jemoji

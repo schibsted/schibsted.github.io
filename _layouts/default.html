@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
+    {% feed_meta %}
+</head>
+<body>
+    <header>
+        <a href="/">Home</a>
+    </header>
+    <main>
+        {{ content }}
+    </main>
+    <footer>
+        <a href="https://twitter.com/SchibstedEng">Follow us on Twitter</a> |
+        <a href="https://jobs.lever.co/schibsted">Come work with us!</a>
+    </footer>
+</body>
+</html>
