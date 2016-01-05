@@ -1,4 +1,4 @@
-# [schibsted.github.io](schibsted.github.io) [![Build Status](https://travis-ci.org/schibsted/schibsted.github.io.svg)](https://travis-ci.org/fschibsted/schibsted.github.io)
+# [schibsted.github.io](schibsted.github.io) [![Build Status](https://travis-ci.org/schibsted/schibsted.github.io.svg)](https://travis-ci.org/schibsted/schibsted.github.io)
 
 Developers at Schibsted blogging about tech.
 You can also find us on Twitter [@SchibstedEng](https://twitter.com/SchibstedEng).
