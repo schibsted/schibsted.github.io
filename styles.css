@@ -1,0 +1,131 @@
+/*
+ * Blue: #005496
+ * Black: #30302E
+ */
+
+@font-face {
+  font-family: "SmgFlamaCond";
+  font-weight: normal;
+  src: url("fonts/SmgFlamaCond-Medium.otf");
+}
+
+@font-face {
+  font-family: "SmgFlamaCond";
+  font-weight: bold;
+  src: url("fonts/SmgFlamaCond-Bold.otf");
+}
+
+body {
+  font-size: 22px;
+}
+
+h1 {
+  color: #005496;
+  font-size: 76px;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 39px;
+  margin-bottom: 28px;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #30302E;
+}
+
+h1, h2, h3 {
+  font-family: SmgFlamaCond;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a {
+  color: #005496;
+  text-decoration: none;
+}
+
+.main .container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.main .projects,
+.main .blogs {
+  flex-direction: row;
+  width: 44%;
+}
+
+.hero {
+  background-image: url('images/mosaic.svg');
+  background-size: 480px auto;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  display: block;
+  min-height: 280px;
+  background-color: #F8F6F5;
+  padding-top: 20px;
+}
+
+.container {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blogs {
+}
+
+.links {
+  font-size: 24px;
+  line-height: 23px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  color: #005496;
+}
+
+.links .material-icons {
+  margin-right: 7px;
+  position: relative;
+  top: 4px;
+}
+
+.links .link {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #f0ece9;
+}
+
+.links a:hover {
+  color: #007bff;
+  opacity: .75;
+  text-decoration: underline;
+}
+
+.button {
+  text-decoration: none;
+  padding: 15px 20px;
+  color: #005496;
+  transition: background, border-color, color 0.2s;
+  font-family: "SmgFlamaCond";
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  border-radius: 24px;
+  border: 2px solid #005496;
+}
+
+.button:hover {
+  background: #005496;
+  border-color: #005496;
+  color: #fff;
+}

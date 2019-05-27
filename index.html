@@ -5,29 +5,53 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Schibsted</title>
-  <link type="application/atom+xml" rel="alternate" href="http://schibsted.github.io/feed.xml" title="Schibsted Engineering Blog" />
+  <link href="styles.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&amp;subset=latin-ext" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <header class="hero">
+    <div class="container">
+      <h1 style="margin-bottom: 20px;">Schibsted</h1>
+      <a class="button" href="https://schibsted.com/career/">Come work with us!</a>
+    </div>
   </header>
 
-  <main>
-    <h1>Schibsted</h1>
-    <h2>Check out some of our engineering blogs:</h2>
+  <main class="main">
+    <div class="container">
+      <div class="projects">
+        <h2>Open source</h2>
 
-    <ul>
-      <li><a href="http://tech.finn.no/">Finn.no</a></li>
-      <li><a href="http://www.schibsted.pl/blog/">Schibsted Tech Polska</a></li>
-      <li><a href="http://tech.vg.no/">VG.no</a></li>
-      <li><a href="http://backstage.segundamano.mx/">Segundamano</a></li>
-      <li><a href="http://bloggar.aftonbladet.se/utvecklingsbloggen/">Aftonbladet</li>
-      <li><a href="http://tech.willhaben.at/">Willhaben</li>
-    <ul>
+        <p>
+          We've made some cool things:
+        </p>
 
+        <ul class="links">
+          <li class="link"><i class="material-icons">code</i><a href="https://github.com/SchibstedSpain/Barista">Barista</a></li>
+          <li class="link"><i class="material-icons">code</i><a href="https://github.com/Unleash/unleash">Unleash</a></li>
+          <li class="link"><i class="material-icons">code</i><a href="https://github.com/schibsted/jslt">JSLT</a></li>
+          <li class="link"><i class="material-icons">code</i><a href="https://github.com/schibsted/strongbox">Strongbox</a></li>
+        <ul>
+      </div>
+
+      <div class="blogs">
+        <h2>Blogs</h2>
+
+        <p>
+          Check out our engineering blogs:
+        </p>
+
+        <ul class="links">
+          <li class="link"><i class="material-icons">open_in_new</i><a href="http://tech.finn.no/">Finn.no</a></li>
+          <li class="link"><i class="material-icons">open_in_new</i><a href="http://www.schibsted.pl/blog/">Schibsted Tech Polska</a></li>
+          <li class="link"><i class="material-icons">open_in_new</i><a href="http://tech.vg.no/">VG.no</a></li>
+          <li class="link"><i class="material-icons">open_in_new</i><a href="http://backstage.segundamano.mx/">Segundamano</a></li>
+          <li class="link"><i class="material-icons">open_in_new</i><a href="http://bloggar.aftonbladet.se/utvecklingsbloggen/">Aftonbladet</a></li>
+          <li class="link"><i class="material-icons">open_in_new</i><a href="http://tech.willhaben.at/">Willhaben</a></li>
+        <ul>
+      </div>
+    </div>
   </main>
-  <footer>
-    <a href="https://twitter.com/SchibstedEng">Follow us on Twitter</a> |
-    <a href="https://jobs.lever.co/schibsted">Come work with us!</a>
-  </footer>
 </body>
 </html>

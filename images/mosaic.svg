@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1500px" height="750px" viewBox="0 0 1500 750" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>mosaik_pattern_sch</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="mosaik_pattern_sch" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Fill-1" fill="#0092C5" points="1350 750 1500 750 1500 600 1350 600"></polygon>
+        <polygon id="Fill-2" fill="#A2D9EE" points="1200 750 1350 750 1350 600 1200 600"></polygon>
+        <polygon id="Fill-3" fill="#006C9A" points="1050 750 1199.999 750 1199.999 600 1050 600"></polygon>
+        <polygon id="Fill-4" fill="#0092C5" points="900 750 1050 750 1050 600 900 600"></polygon>
+        <polygon id="Fill-5" fill="#006C9A" points="750 750 900 750 900 600 750 600"></polygon>
+        <polygon id="Fill-6" fill="#0092C5" points="600 750 749.999 750 749.999 600 600 600"></polygon>
+        <polygon id="Fill-7" fill="#A2D9EE" points="450 750 600 750 600 600 450 600"></polygon>
+        <polygon id="Fill-8" fill="#0092C5" points="300 750 450 750 450 600 300 600"></polygon>
+        <polygon id="Fill-9" fill="#A2D9EE" points="0 750 150 750 150 600 0 600"></polygon>
+        <polygon id="Fill-10" fill="#A2D9EE" points="1350 600 1500 600 1500 450.001 1350 450.001"></polygon>
+        <polygon id="Fill-11" fill="#006C9A" points="1200 600 1350 600 1350 450 1200 450"></polygon>
+        <polygon id="Fill-12" fill="#A2D9EE" points="1050 600 1200 600 1200 450 1050 450"></polygon>
+        <polygon id="Fill-13" fill="#0092C5" points="750 600 900 600 900 450 750 450"></polygon>
+        <polygon id="Fill-14" fill="#006C9A" points="600 600 750 600 750 450 600 450"></polygon>
+        <polygon id="Fill-15" fill="#0092C5" points="450 600 600 600 600 450 450 450"></polygon>
+        <polygon id="Fill-16" fill="#006C9A" points="150 600 300 600 300 450 150 450"></polygon>
+        <polygon id="Fill-17" fill="#006C9A" points="1350 450 1500 450 1500 300 1350 300"></polygon>
+        <polygon id="Fill-18" fill="#0092C5" points="1200 450 1350 450 1350 300 1200 300"></polygon>
+        <polygon id="Fill-19" fill="#A2D9EE" points="900 450 1050 450 1050 300 900 300"></polygon>
+        <polygon id="Fill-20" fill="#A2D9EE" points="1350 300 1500 300 1500 150 1350 150"></polygon>
+        <polygon id="Fill-21" fill="#A2D9EE" points="1050 300 1200 300 1200 150 1050 150"></polygon>
+        <polygon id="Fill-22" fill="#006C9A" points="1200 150 1350 150 1350 0.001 1200 0.001"></polygon>
+        <polygon id="Fill-23" fill="#0092C5" points="900 150 1050 150 1050 0.001 900 0.001"></polygon>
+        <polygon id="Fill-24" fill="#A2D9EE" points="600 450 750 450 750 300 600 300"></polygon>
+    </g>
+</svg>
