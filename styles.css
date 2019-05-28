@@ -112,6 +112,10 @@ h1.schibsted {
     width: 100%;
   }
 
+  .main .projects .description {
+    display: none;
+  }
+
 }
 
 @media only screen and (min-width: 800px) {
@@ -150,9 +154,6 @@ h1.schibsted {
 }
 
 .links {
-  font-size: 24px;
-  line-height: 23px;
-  font-weight: 600;
   margin: 0;
   padding: 0;
   color: #005496;
@@ -171,6 +172,17 @@ h1.schibsted {
   margin-bottom: 15px;
   padding-bottom: 15px;
   border-bottom: 1px solid #f0ece9;
+}
+
+.links .link a {
+  font-size: 24px;
+  line-height: 23px;
+  font-weight: 600;
+}
+
+.links .link p {
+  font-size: 18px;
+  margin-bottom: 0px;
 }
 
 .links a:hover {
