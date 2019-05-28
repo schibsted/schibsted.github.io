@@ -1,27 +1,129 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Schibsted Engineering Blog</title>
-    <link type="application/atom+xml" rel="alternate" href="http://schibsted.github.io/feed.xml" title="Schibsted Engineering Blog" />
+  <meta charset="utf-8">
+  <title>Open source at Schibsted</title>
+  <link href="styles.css" rel="stylesheet">
+
+  <script src="scripts/konami.js"></script>
+
+  <script>
+    var easterEgg = new Konami(function() {
+      // Oh no...
+      var schibstedParty = new Audio('https://sch.party/schibsted-yo.mp3');
+      schibstedParty.currentTime = 95.5;
+      schibstedParty.play();
+    });
+  </script>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&amp;subset=latin-ext" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <header>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-    </header>
-    <main>
-        <ul>
-    
-    <li><a href="/2015/11/21/the-great-big-schibsted-programming-language-survey-2015/">The great big Schibsted programming language survey 2015</a><abbr>21 Nov 2015</abbr></li>
-    
-</ul>
+  <header class="hero">
+    <div class="container">
+      <h1 class="schibsted" style="margin-bottom: 20px;">Schibsted</h1>
+      <a class="button" href="https://schibsted.com/career/">Come work with us!</a>
+    </div>
+  </header>
 
-    </main>
-    <footer>
-        <a href="https://twitter.com/SchibstedEng">Follow us on Twitter</a> |
-        <a href="https://jobs.lever.co/schibsted">Come work with us!</a>
-    </footer>
+  <main class="main">
+    <div class="container">
+      <div class="projects">
+        <h2>Open source</h2>
+
+        <p>
+          We make some cool things:
+        </p>
+
+        <ul class="links">
+          <li class="link">
+            <i class="material-icons">code</i>
+            <a href="https://github.com/varnishcache/varnish-cache">Varnish</a>
+            <p class="description">
+              An HTTP accelerator designed for content-heavy dynamic web sites as well as APIs.
+            </p>
+          </li>
+          <li class="link">
+            <i class="material-icons">code</i>
+            <a href="https://github.com/Unleash/unleash">Unleash</a>
+            <p class="description">
+              A feature toggle system that gives you a great overview over all feature toggles
+              across all your applications and services.
+            </p>
+          </li>
+          <li class="link">
+            <i class="material-icons">code</i>
+            <a href="https://github.com/SchibstedSpain/Barista">Barista</a>
+            <p class="description">
+              Makes developing UI test for Android faster, easier and more predictable.
+            </p>
+          </li>
+          <li class="link">
+            <i class="material-icons">code</i>
+            <a href="https://github.com/vgno/ssehub">SSEHub</a>
+            <p class="description">
+              A high performance SSE-server implementation written in C++.
+            </p>
+          </li>
+          <li class="link">
+            <i class="material-icons">code</i>
+            <a href="https://github.com/schibsted/jslt">JSLT</a>
+            <p class="description">
+              A complete query and transformation language for JSON, inspired
+              by jq, XPath, and XQuery.
+            </p>
+          </li>
+          <li class="link">
+            <i class="material-icons">code</i>
+            <a href="https://github.com/schibsted/strongbox">Strongbox</a>
+            <p class="description">
+              Strongbox is a CLI/GUI and SDK to manage, store, and retrieve
+              secrets (access tokens, encryption keys, private certificates, etc)
+            </p>
+          </li>
+          <li class="link">
+            <i class="material-icons">code</i>
+            <a href="https://github.com/schibsted/pr_changelog">PR Changelog</a>
+            <p class="description">
+              A script to generate a nice list of changes given two git references
+            </p>
+          </li>
+          <li class="link">
+            <i class="material-icons">code</i>
+            <a href="https://github.com/finn-no/charcoal-ios">Charcoal</a>
+            <p class="description">
+              A modern way to filter things in your iOS apps
+            </p>
+          </li>
+        </ul>
+
+        <a class="button" href="https://github.com/schibsted">All projects</a>
+      </div>
+
+      <div class="blogs">
+        <h2>Blogs</h2>
+
+        <p>
+          And write some cool blogs:
+        </p>
+
+        <ul class="links">
+          <li class="link"><i class="material-icons">open_in_new</i><a href="http://bytes.schibsted.com/">Schibsted Bytes</a></li>
+          <li class="link"><i class="material-icons">open_in_new</i><a href="http://tech.finn.no/">Finn.no</a></li>
+          <li class="link"><i class="material-icons">open_in_new</i><a href="http://www.schibsted.pl/blog/">Schibsted Tech Polska</a></li>
+          <li class="link"><i class="material-icons">open_in_new</i><a href="http://tech.willhaben.at/">Willhaben</a></li>
+        <ul>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+
+    </div>
+  </footer>
 </body>
 </html>
